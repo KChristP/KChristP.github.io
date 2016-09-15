@@ -202,7 +202,7 @@ function setupMap (){
 
 
 
-  var wallTexture = loader.load('http://previews.123rf.com/images/kentoh/kentoh1103/kentoh110300048/8971306-Seamless-Space-Hull-Ship-Pattern-as-Background-Stock-Photo-spaceship-texture.jpg',
+  var wallTexture = loader.load('https://lut.im/LsQQb8QfDN/NqVF5swjdo96hWHu.jpg',
    function(texture){
      window.alert(texture)
    });
