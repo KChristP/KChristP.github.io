@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>My first Three.js app</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+			html { overflow-y: hidden; }
+		</style>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="intro-screen">
+			<h1>Welcome to GhostBlaster</h1>
+			<p>Kill all the ghosts before they kill you!</p>
+			<h3>The controls are:</h3>
+			<ul>
+				<li><strong>&#8679;</strong> - forward</li>
+				<li><strong>&#8681;</strong> - backward</li>
+				<li><strong>&#8680;</strong> - turn right</li>
+				<li><strong>&#8678;</strong> - turn left</li>
+				<li>space - fire/shoot</li>
+				<button id="start-game">Start Game!</button>
+			</ul>
+		</div>
+		<div id="outro-screen">
+		</div>
+		<div id="grey-out">
+			<div class="hud"><div class="sub-box"><label>Score:</label> <div id="score">0</div></div><div class="sub-box"><label>Health:</label> <div id="health">100</div></div></div>
+			<script src="js/three.js"></script>
+			<script src="js/main.js">
+
+			</script>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "3js",
+  "version": "1.0.0",
+  "description": "##Background A first person shooter is a classic style of computer game in which a player has a health meter that enemies can decrement. The player wanders 3d scenes populated with enemies and attempts to destroy them before the health meter runs out. Variations on this theme may introduce additional goals beyond enemy destruction such as finding and toggling other objects placed into the scene in order to unlock additional features or new scenes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KChristP/BangBangPewPew.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KChristP/BangBangPewPew/issues"
+  },
+  "homepage": "https://github.com/KChristP/BangBangPewPew",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
