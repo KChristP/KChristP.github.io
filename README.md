@@ -8,7 +8,9 @@ GhostBlaster is a 3D first person shooter game designed for web browsers that is
 
 With three.js a scene is populated by adding a variety of `THREE.Mesh` objects which are given specific geometries and materials which affect how they will display in the scene. In order to see these objects, a camera is placed in the scene. Here a `THREE.PerspectiveCamera` was chosen and given a field of vision that fills the screen.
 GhostBlaster uses `THREE.BoxGeometry` for the main player and the walls, floor, and ceiling, and `THREE.IcosahedronGeometry` for the villains and bullets.
-In order to see everything, three.js provides a renderer which paints the scene onto the 2D screen. A helper function requestAnimationFrame was used which essentially is a setTimeout which is used to call a `render` function which ultimately calls the renderer.
+In order to see everything, three.js provides a renderer which paints the scene onto the 2D screen. A helper function requestAnimationFrame was used which essentially is a setTimeout which is used to call a `render` function which ultimately calls the renderer. 
+
+![Ghostblaster](images/Screen%20Shot%202016-09-16%20at%208.57.33%20AM.png)
 
 ### First Person Perspective
 
