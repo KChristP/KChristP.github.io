@@ -1,3 +1,30 @@
+h1 {
+  font-size: 65px;
+  /*text-shadow: -1px 1px #faebd7;*/
+  /*color: white;  /* Fallback: assume this color ON TOP of image */
+
+}
+h1, h2, h3, i {
+  font-family: 'Ruslan Display', cursive;
+  background: url(../images/metal_lines_stripes_light_shiny_silver_18401_3840x2160.jpg) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0px;
+}
+h2 {
+  font-size: 25px;
+}
+.b {
+  font-size: 80px;
+  letter-spacing: 1px;
+  padding-right: 7px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .hud {
   position: absolute;
     bottom: 5%;
@@ -17,7 +44,28 @@
 
 .sub-box {padding: 25px;background-color: black;opacity: 0.6;color: red;font-weight: bold;display: flex;justify-content: space-between;border-radius: 100px;border: 2px solid black;font-size: 20px;flex-direction: column;align-items: center;}
 
-#intro-screen, #outro-screen {position: absolute;top: 20%;left: 33%;background-color: #faebd7;padding: 20px;border-radius: 3px;z-index: 1;font-family: sans-serif;color: darkred;border: 2px solid darkslategrey;}
+#intro-screen, #outro-screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, 50%); /* IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* Safari */
+  transform: translate(-50%, -50%);
+  /*background-color: #faebd7;*/
+  padding: 20px;
+  text-align: center
+  border-radius: 3px;
+  z-index: 1;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #faebd7;
+  border: 2px solid darkslategrey;
+  background-image: url("../images/blackwebs.jpg");
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
 
 #grey-out {
   opacity: 0.5;
@@ -30,7 +78,7 @@
 
 ul {list-style: none;padding: 0;}
 
-li {padding: 5px;}
+li {padding: 10px;}
 
 button {
   background-color: darkred;
@@ -39,10 +87,12 @@ button {
   font-weight: bold;
   padding: 5px 40px;
   margin-top: 20px;
+  border: 1px solid black;
+
 }
 
 button:hover {
   cursor: pointer;
   text-decoration: underline;
-  border: 2px solid black;
+  border: 1px solid #ccc;
 }
